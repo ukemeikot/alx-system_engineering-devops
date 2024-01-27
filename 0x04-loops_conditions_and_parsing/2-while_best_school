@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# this program prints "best school 10 times"
+
+count=0
+message="Best School"
+while [ $count -lt 10 ]
+do
+	echo "$message"
+	((count++))
+done
